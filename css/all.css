@@ -1,0 +1,357 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* 
+ */
+
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    left: 10%;
+    bottom: 10%;
+    justify-content: center;
+}
+
+.control_five {
+    left: 10%;
+    bottom: 18%;
+}
+
+.integral {
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    padding: 15px;
+}
+
+@media (max-width:1000px) {
+    .control {
+        left: 12%;
+        bottom: 11%;
+    }
+
+    .control_five {
+        left: 11.5%;
+        bottom: 17%;
+    }
+
+    .integral {
+        width: 50%;
+        padding: 5px;
+    }
+}
+
+@media (max-width:768px) {
+    .control {
+        left: 10%;
+        bottom: 9%;
+    }
+
+    .control_five {
+        left: 11.5%;
+        bottom: 17%;
+    }
+}
+
+.integral input {
+    display: none;
+}
+
+.integral label {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[name="answerControl1"]:not(:checked)~label {
+    filter: grayscale(100%);
+}
+
+input[name="answerControl2"]:not(:checked)~label {
+    filter: grayscale(100%);
+}
+
+input[name="answerControl3"]:not(:checked)~label {
+    filter: grayscale(100%);
+}
+
+input[name="answerControl4"]:not(:checked)~label {
+    filter: grayscale(100%);
+}
+
+input[name="answerControl5"]:not(:checked)~label {
+    filter: grayscale(100%);
+}
+
+.close_img {
+    width: 100%;
+    max-height: 0;
+    transition: max-height .8s cubic-bezier(1, 0.2, 0.2, 1);
+    overflow: hidden;
+}
+
+.show {
+    max-height: 5000px;
+}
+
+.showIntegral {
+    text-align: center;
+    width: 100%;
+    top: 27.8%;
+    left: 25%;
+    /* transform: translateX(-50%); */
+    font-size: 3rem;
+
+}
+
+@media (max-width:768px) {
+    .showIntegral {
+        font-size: 1.5rem;
+        top: 26%;
+        left: 24%;
+    }
+}
+
+
+/* POP UP */
+
+.popClose {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popShow {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popBg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: rgb(0, 0, 0, 0.8);
+    transition: all 0.3s;
+}
+
+.popImg {
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:768px) {
+    .popImg {
+        width: 90%;
+    }
+}
+
+
+/* 定位 */
+
+.logo {
+    width: 35%;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkNumber {
+    width: 65%;
+    left: 17.5%;
+    bottom: 19%;
+    cursor: pointer;
+}
+
+.sale01 {
+    width: 65%;
+    left: 17.5%;
+    bottom: 19%;
+}
+
+.view1Btn1-1 {
+    width: 80%;
+    left: 10%;
+    bottom: 10%;
+}
+
+.view1Btn1-1 span {
+    -webkit-mask: url("../images/btnAll.png") no-repeat center center;
+    mask: url("../images/btnAll.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.view1Btn1-2 {
+    width: 25%;
+    left: 38%;
+    bottom: 3%;
+}
+
+.thing8__1 {
+    width: 39.3%;
+    right: 15%;
+    top: 29.5%;
+    cursor: pointer;
+}
+
+.thing8__1 span {
+    -webkit-mask: url("../images/雙倍.png") no-repeat center center;
+    mask: url("../images/雙倍.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.thing8__2 {
+    width: 39.3%;
+    left: 6%;
+    top: 47.5%;
+    cursor: pointer;
+}
+
+.thing8__2 span {
+    -webkit-mask: url("../images/64種b.png") no-repeat center center;
+    mask: url("../images/64種b.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.thing8__3 {
+    width: 35.6%;
+    left: 10%;
+    bottom: 13.5%;
+    cursor: pointer;
+}
+
+.thing8__3 span {
+    -webkit-mask: url("../images/97title.png") no-repeat center center;
+    mask: url("../images/97title.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.thing9__1 {
+    width: 19%;
+    right: 23%;
+    top: 69%;
+    transform-origin: bottom center;
+}
+
+.thing9__2 {
+    width: 19%;
+    right: 4%;
+    top: 69%;
+    transform-origin: bottom center;
+}
+
+.thing10__1 {
+    width: 37.5%;
+    left: 30%;
+    top: 40%;
+    z-index: 1;
+}
+
+.thing10__2 {
+    width: 22.8%;
+    right: 14%;
+    top: 55%;
+}
+
+.thing10__2 span {
+    -webkit-mask: url("../images/circle.png") no-repeat center center;
+    mask: url("../images/circle.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.video1 {
+    width: 58%;
+    height: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 46%;
+}
+
+.thing12__1 {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 21%;
+}
+
+.offer01 {
+    width: 75%;
+    left: 13.5%;
+    bottom: 6.5%;
+}
+
+.offer02 {
+    width: 75%;
+    left: 13.5%;
+    bottom: 6.5%;
+}
+
+.offer03 {
+    width: 75%;
+    left: 13.5%;
+    bottom: 2.5%;
+}
+
+.phone {
+    width: 100%;
+    height: 25%;
+    left: 0%;
+    top: 20%;
+}
+
+.mail {
+    width: 100%;
+    height: 25%;
+    left: 0%;
+    bottom: 0%;
+}

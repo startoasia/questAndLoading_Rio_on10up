@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <script type='text/javascript' id='vwoCode'>
+        window._vwo_code = window._vwo_code || (function () {
+            var account_id = 684710,
+                version = 1.5,
+                settings_tolerance = 2000,
+                library_tolerance = 2500,
+                use_existing_jquery = false,
+                is_spa = 1,
+                hide_element = 'body',
+                hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
+                /* DO NOT EDIT BELOW THIS LINE */
+                f = false,
+                d = document,
+                vwoCodeEl = d.querySelector('#vwoCode'),
+                code = {
+                    use_existing_jquery: function () {
+                        return use_existing_jquery
+                    },
+                    library_tolerance: function () {
+                        return library_tolerance
+                    },
+                    hide_element_style: function () {
+                        return '{' + hide_element_style + '}'
+                    },
+                    finish: function () {
+                        if (!f) {
+                            f = true;
+                            var e = d.getElementById('_vis_opt_path_hides');
+                            if (e) e.parentNode.removeChild(e)
+                        }
+                    },
+                    finished: function () {
+                        return f
+                    },
+                    load: function (e) {
+                        var t = d.createElement('script');
+                        t.fetchPriority = 'high';
+                        t.src = e;
+                        t.type = 'text/javascript';
+                        t.onerror = function () {
+                            _vwo_code.finish()
+                        };
+                        d.getElementsByTagName('head')[0].appendChild(t)
+                    },
+                    getVersion: function () {
+                        return version
+                    },
+                    getMatchedCookies: function (e) {
+                        var t = [];
+                        if (document.cookie) {
+                            t = document.cookie.match(e) || []
+                        }
+                        return t
+                    },
+                    getCombinationCookie: function () {
+                        var e = code.getMatchedCookies(/(?:^|;)\s?(_vis_opt_exp_\d+_combi=[^;$]*)/gi);
+                        e = e.map(function (e) {
+                            try {
+                                var t = decodeURIComponent(e);
+                                if (!/_vis_opt_exp_\d+_combi=(?:\d+,?)+\s*$/.test(t)) {
+                                    return ''
+                                }
+                                return t
+                            } catch (e) {
+                                return ''
+                            }
+                        });
+                        var i = [];
+                        e.forEach(function (e) {
+                            var t = e.match(/([\d,]+)/g);
+                            t && i.push(t.join('-'))
+                        });
+                        return i.join('|')
+                    },
+                    init: function () {
+                        if (d.URL.indexOf('__vwo_disable__') > -1) return;
+                        window.settings_timer = setTimeout(function () {
+                            _vwo_code.finish()
+                        }, settings_tolerance);
+                        var e = d.createElement('style'),
+                            t = hide_element ? hide_element + '{' + hide_element_style + '}' : '',
+                            i = d.getElementsByTagName('head')[0];
+                        e.setAttribute('id', '_vis_opt_path_hides');
+                        vwoCodeEl && e.setAttribute('nonce', vwoCodeEl.nonce);
+                        e.setAttribute('type', 'text/css');
+                        if (e.styleSheet) e.styleSheet.cssText = t;
+                        else e.appendChild(d.createTextNode(t));
+                        i.appendChild(e);
+                        var n = this.getCombinationCookie();
+                        this.load('https://dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&f=' + +is_spa + '&vn=' + version + (n ? '&c=' + n : ''));
+                        return settings_timer
+                    }
+                };
+            window._vwo_settings_timer = code.init();
+            return code;
+        }());
+    </script>
+    <!-- End VWO Async SmartCode -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="unsafe-url">
+
+    <title>填問卷拿優惠 | 30秒快速了解肌膚問題</title>
+    <!--描述-->
+    <meta name="description"
+        content="【 30秒填問卷拿優惠 】你對你的肌膚了解多少？用對產品才能達到真正有效。日本保養品大牌OZIO，為了改善大家的肌膚困擾，特別設計出的肌膚檢測問卷，讓你不只能夠快速了解肌膚問題，還提供解決改善建議，快來檢測看看吧！">
+    <!--關鍵字-->
+    <meta name="keywords"
+        content="歐姬兒, OZIO, 日本保養品, 日系藥妝推薦, 蜂王乳凝露, 蜂王乳QQ露, QQ潤白凝露, 蜂王乳舒敏修護凝露, 美白, 撫皺, 撫紋, 抗老, 凍齡, 淡斑, 舒敏, 修護, 蜂王乳系列, 蜂王乳保養,肌膚檢測">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/other.css">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MMGGLB');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- ※LP用|編集削除禁止 -->
+
+    <!-- ※LP用|編集削除禁止※ -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMGGLB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="header" style="position: sticky; top: 0;left: 0; z-index: 10; ">
+        <div class="container">
+            <!-- <h1 style="background-color: brown; color: #fff;margin: 0;">我是Header</h1> -->
+        </div>
+    </div>
+
+
+    <div class="bg1">
+        <div class="container"><img src="images/bg/back_01A.jpg" alt=""></div>
+    </div>
+    <div class="bg2">
+        <div class="container relative">
+            <img class="absolute logo" src="images/LOGO.png" alt="">
+            <a href="#question1" class="scrollLink">
+                <img src="images/bg/back_02A.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="bg3" id="question1">
+        <div class="container relative">
+            <img src="images/bg/back_03.jpg" alt="">
+            <ul class="control absolute" data-answerNumber="0">
+                <li class="integral " data-id="0" data-value="1">
+                    <input type="radio" id="answer0" name="answerControl1">
+                    <label for="answer0"><img src="images/btn-1.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="1" data-value="2">
+                    <input type="radio" id="answer1" name="answerControl1">
+                    <label for="answer1"> <img src="images/btn-2.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="2" data-value="3">
+                    <input type="radio" id="answer2" name="answerControl1">
+                    <label for="answer2"><img src="images/btn-3.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="3" data-value="4">
+                    <input type="radio" id="answer3" name="answerControl1">
+                    <label for="answer3"><img src="images/btn-4.png" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="loading " data-loading="0">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+    <div class="QAcontrol bg4 wow animate__animated" id="question2">
+        <div class="container relative">
+            <img src="images/bg/back_04.jpg" alt="">
+            <ul class="control absolute" data-answerNumber="1">
+                <li class="integral " data-id="4" data-value="1">
+                    <input type="radio" id="answer4" name="answerControl2">
+                    <label for="answer4"><img src="images/btn-1.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="5" data-value="2">
+                    <input type="radio" id="answer5" name="answerControl2">
+                    <label for="answer5"> <img src="images/btn-2.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="6" data-value="3">
+                    <input type="radio" id="answer6" name="answerControl2">
+                    <label for="answer6"><img src="images/btn-3.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="7" data-value="4">
+                    <input type="radio" id="answer7" name="answerControl2">
+                    <label for="answer7"><img src="images/btn-4.png" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="loading " data-loading="1">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+    <div class="QAcontrol bg5 wow animate__animated" id="question3">
+        <div class="container relative">
+            <img src="images/bg/back_05.jpg" alt="">
+            <ul class="control absolute" data-answerNumber="2">
+                <li class="integral " data-id="8" data-value="1">
+                    <input type="radio" id="answer8" name="answerControl3">
+                    <label for="answer8"><img src="images/btn-1.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="9" data-value="2">
+                    <input type="radio" id="answer9" name="answerControl3">
+                    <label for="answer9"> <img src="images/btn-2.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="10" data-value="3">
+                    <input type="radio" id="answer10" name="answerControl3">
+                    <label for="answer10"><img src="images/btn-3.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="11" data-value="4">
+                    <input type="radio" id="answer11" name="answerControl3">
+                    <label for="answer11"><img src="images/btn-4.png" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="loading " data-loading="2">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+    <div class="QAcontrol bg6 wow animate__animated" id="question4">
+        <div class="container relative">
+            <img src="images/bg/back_06.jpg" alt="">
+            <ul class="control absolute" data-answerNumber="3">
+                <li class="integral " data-id="12" data-value="1">
+                    <input type="radio" id="answer12" name="answerControl4">
+                    <label for="answer12"><img src="images/btn-1.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="13" data-value="2">
+                    <input type="radio" id="answer13" name="answerControl4">
+                    <label for="answer13"> <img src="images/btn-2.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="14" data-value="3">
+                    <input type="radio" id="answer14" name="answerControl4">
+                    <label for="answer14"><img src="images/btn-3.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="15" data-value="4">
+                    <input type="radio" id="answer15" name="answerControl4">
+                    <label for="answer15"><img src="images/btn-4.png" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="loading " data-loading="3">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+    <div class="QAcontrol bg7 wow animate__animated" id="question5">
+        <div class="container relative">
+            <img src="images/bg/back_07.jpg" alt="">
+            <ul class="control control_five absolute" data-answerNumber="4">
+                <li class="integral " data-id="16" data-value="1">
+                    <input type="radio" id="answer16" name="answerControl5">
+                    <label for="answer16"><img src="images/btn-1.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="17" data-value="2">
+                    <input type="radio" id="answer17" name="answerControl5">
+                    <label for="answer17"> <img src="images/btn-2.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="18" data-value="3">
+                    <input type="radio" id="answer18" name="answerControl5">
+                    <label for="answer18"><img src="images/btn-3.png" alt=""></label>
+                </li>
+                <li class="integral " data-id="19" data-value="4">
+                    <input type="radio" id="answer19" name="answerControl5">
+                    <label for="answer19"><img src="images/btn-4.png" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="loading " data-loading="4">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+
+    <div class="QAcontrol bg7-1 wow animate__animated" id="showIntegralBtn" data-answerNumber="5">
+        <div id="ctaStart"></div>
+        <div class="container relative">
+            <img class="close_img answerView" src="images/bg/finalNumber01.jpg" alt="">
+            <img class="close_img answerView" src="images/bg/finalNumber02.jpg" alt="">
+            <img class="close_img answerView" src="images/bg/finalNumber03.jpg" alt="">
+            <img class="close_img answerView" src="images/bg/finalNumber04.jpg" alt="">
+            <!-- 顯示分數 -->
+            <div class="absolute showIntegral "></div>
+            <!-- <div class="absolute checkNumber Link move">
+                <span><img src="images/checkNumber.png" alt=""></span>
+                <span><img src="images/sale.png" alt=""></span>
+            </div> -->
+        </div>
+        <!-- answer 1 【1~5】 -->
+        <!-- <div class="showFinal close_img ">
+            <div class="container relative">
+                <img src="images/answer_1.jpg" alt="">
+                <div class="absolute showIntegral "></div>
+                <a href="#view1" class="absolute scrollLink sale01 ">
+                    <img src="images/sale.png" alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="view1 close_img showFinal" id="view1">
+            <div class="container relative">
+                <img src="images/answer_1-1.jpg" alt="">
+                <a href="#buy" class="scrollLink absolute view1Btn1-1 Link">
+                    <span><img src="images/btnAll.png" alt=""></span>
+                </a>
+                <img class="absolute view1Btn1-2 move" src="images/down1.png" alt="">
+            </div>
+        </div>
+
+        <!-- answer 2 【6~10】 -->
+        <!-- <div class="showFinal close_img ">
+            <div class="container relative">
+                <img src="images/answer_2.jpg" alt="">
+                <div class="absolute showIntegral "></div>
+                <a href="#view2" class="absolute scrollLink sale01 ">
+                    <img src="images/sale.png" alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="view2 close_img showFinal " id="view2">
+            <div class="container relative">
+                <img src="images/answer_2-1.jpg" alt="">
+                <a href="#buy" class="scrollLink absolute view1Btn1-1 Link">
+                    <span><img src="images/btnAll.png" alt=""></span>
+                </a>
+                <img class="absolute view1Btn1-2 move" src="images/down1.png" alt="">
+            </div>
+        </div>
+        <!-- answer 3 【11~15】 -->
+        <!-- <div class="showFinal close_img ">
+            <div class="container relative">
+                <img src="images/answer_3.jpg" alt="">
+                <div class="absolute showIntegral "></div>
+                <a href="#view3" class="absolute scrollLink sale01 ">
+                    <img src="images/sale.png" alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="view3 close_img showFinal" id="view3">
+            <div class="container relative">
+                <img src="images/answer_3-1.jpg" alt="">
+                <a href="#buy" class="scrollLink absolute view1Btn1-1 Link">
+                    <span><img src="images/btnAll.png" alt=""></span>
+                </a>
+                <img class="absolute view1Btn1-2 move" src="images/down2.png" alt="">
+            </div>
+        </div>
+        <!-- answer 4 【16~20】 -->
+        <!-- 
+        <div class="showFinal close_img ">
+            <div class="container relative">
+                <img src="images/answer_4.jpg" alt="">
+                <div class="absolute showIntegral "></div>
+                <a href="#view4" class="absolute scrollLink sale01 ">
+                    <img src="images/sale.png" alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="view4 close_img showFinal" id="view4">
+            <div class="container relative">
+                <img src="images/answer_4-1.jpg" alt="">
+                <a href="#buy" class="scrollLink absolute view1Btn1-1 Link">
+                    <span><img src="images/btnAll.png" alt=""></span>
+                </a>
+                <img class="absolute view1Btn1-2 move" src="images/down2.png" alt="">
+            </div>
+        </div>
+        <!-- </div> -->
+
+
+
+
+
+        <!-- <div class="container">
+        <div class="loading " data-loading="5">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div> -->
+
+        <!-- <div class="QAcontrol wow animate__animated" data-QAnumber="5"> -->
+
+        <div class="bg8">
+            <div class="container relative">
+                <img src="images/bg/back_08.jpg" alt="">
+                <div class="absolute Link thing8__1">
+                    <span>
+                        <img src="images/雙倍.png" alt="">
+                    </span>
+                </div>
+                <div class="absolute Link thing8__2">
+                    <span>
+                        <img src="images/64種b.png" alt="">
+                    </span>
+                </div>
+                <div class="absolute Link thing8__3">
+                    <span>
+                        <img src="images/97title.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="bg9">
+            <div class="container relative">
+                <img src="images/bg/back_09.jpg" alt="">
+                <img class="absolute thing9__1 rotate" src="images/egg1.png" alt="">
+                <img class="absolute thing9__2 rotate" src="images/egg2.png" alt="">
+            </div>
+        </div>
+        <div class="bg10">
+            <div class="container relative">
+                <img src="images/bg/back_10.jpg" alt="">
+                <img class="absolute thing10__1" src="images/thing1.png" alt="">
+                <div class="absolute thing10__2 Link">
+                    <span>
+                        <img src="images/circle.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="bg11">
+            <div class="container relative">
+                <img src="images/bg/back_11.jpg" alt="">
+                <div class="absolute video1">
+                    <video controls width="100%" height="100%" playsinline muted autoplay loop>
+                        <source src="./images/one.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="bg12">
+            <div class="container relative">
+                <img src="images/bg/back_12.jpg" alt="">
+                <img class="absolute thing12__1" src="images/two.gif" alt="">
+
+            </div>
+        </div>
+
+        <!-- offer -->
+        <div class="bg13" id="buy">
+
+            <div class="container relative">
+                <img src="images/bg/back_13.jpg" alt="">
+                <a href="#lp_form" onclick="acsSelect('qqmini2');" class="absolute scrollLink scale offer01">
+                    <img src="images/offer.png">
+                </a>
+            </div>
+        </div>
+        <div class="bg14">
+            <div class="container relative">
+                <img src="images/bg/back_14.jpg" alt="">
+                <a href="#lp_form" onclick="acsSelect('wrjm3');" class="absolute scrollLink scale offer02">
+                    <img src="images/offer2.png">
+                </a>
+            </div>
+        </div>
+        <div class="bg15">
+            <div class="container relative">
+                <img src="images/bg/back_15.jpg" alt="">
+                <a href="#lp_form" onclick="acsSelect('4560313623045-T');" class="absolute scrollLink scale offer03">
+                    <img src="images/offer.png">
+                </a>
+            </div>
+        </div>
+        <div class="bg16">
+            <div class="container"><img src="images/bg/back_16.jpg" alt=""></div>
+        </div>
+        <div class="bg17">
+            <div class="container relative">
+                <img src="images/bg/back_17.jpg" alt="">
+                <a href="tel:0809091686" class="absolute phone"></a>
+                <a href="mailto:nachulife.taiwan@ozio.tw" class="absolute mail"></a>
+            </div>
+        </div>
+        <div id="ctaEnd"></div>
+        <!-- ※LP用|編集削除禁止 -->
+        <div id="acs_lp_form"></div>
+        <script src="https://code.cros.tw/init.js"></script>
+        <!-- ※LP用|編集削除禁止 -->
+    </div>
+    <!-- <div id="ctaEnd"></div> -->
+
+    <!-- popUp -->
+    <div class="popBg pop1 popClose">
+        <img class="absolute popImg" src="images/雙倍info.png" alt="">
+    </div>
+    <div class="popBg pop2 popClose">
+        <img class="absolute popImg" src="images/64種.png" alt="">
+    </div>
+    <div class="popBg pop3 popClose">
+        <img class="absolute popImg" src="images/97a.png" alt="">
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/other.js"></script>
+    <script src="js/all.js"></script>
+    <script>
+        let CTAdata = {
+            variation: 1,//有3種模式請看PPT
+            href: "https://www.ozioproduct01.com/QQXMAS23",
+            lnkID: "lnk_99",
+            pastr: "QQquest01ctaQQXMAS23",
+            spImg: "https://www.ozioproduct01.com/STA_CTA/2023.12.05/ctaSP.gif",
+            pcImg: "https://www.ozioproduct01.com/STA_CTA/2023.12.05/ctaPC.gif",
+        }
+    </script>
+    <!-- <script src="js/cta.js"></script> -->
+
+</body>
+
+</html>
